@@ -77,9 +77,9 @@ export default function Footer() {
               <img src="/logo.png" alt="Market Mitra" className="h-10 w-10 object-contain" />
               <div>
                 <div className="font-heading font-bold text-lg text-warm leading-none">
-                  Market<span className="text-amber">मित्र</span>
+                  Build<span style={{ color: "#5a5fcf" }}>Nest</span>
                 </div>
-                <div className="text-warm/25 text-[10px] italic mt-0.5">Growth feels better with a friend</div>
+                <div className="text-warm/25 text-[10px] italic mt-0.5">Tech. Marketing. Growth.</div>
               </div>
             </Link>
             <p className="text-warm/40 text-sm leading-relaxed mb-6 max-w-xs">

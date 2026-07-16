@@ -159,7 +159,7 @@ const sendAutoReply = async ({ name, email, message, service }) => {
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background:#0d1b2e;border-radius:12px;overflow:hidden;color:#F4F3EF;">
       <div style="background:linear-gradient(135deg,#1A2E4A,#0f1f35);padding:28px 32px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.07);">
         <p style="margin:0;font-size:22px;font-weight:700;"><span style="color:#F5A623;">Market</span><span style="color:#F4F3EF;">मित्र</span></p>
-        <p style="margin:4px 0 0;font-size:12px;color:rgba(244,243,239,0.35);font-style:italic;">Growth feels better with a friend</p>
+        <p style="margin:4px 0 0;font-size:12px;color:rgba(244,243,239,0.35);font-style:italic;">Tech. Marketing. Growth.</p>
       </div>
       <div style="padding:36px 32px;">
         <h2 style="margin:0 0 12px;font-size:20px;color:#F4F3EF;">Hey ${name.split(" ")[0]}, thanks for reaching out! 👋</h2>

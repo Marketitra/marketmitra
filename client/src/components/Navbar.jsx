@@ -78,10 +78,10 @@ export default function Navbar() {
               <img src="/logo.png" alt="Market Mitra" className={`object-contain transition-all duration-500 ${scrolled ? "h-10 w-10" : "h-12 w-12"}`} />
               <div className="flex flex-col leading-none">
                 <span className="font-heading font-bold text-base text-warm leading-none">
-                  Market<span className="text-amber">मित्र</span>
+                  Build<span style={{ color: "#5a5fcf" }}>Nest</span>
                 </span>
                 <span className="text-warm/30 text-[9px] italic tracking-wide leading-none mt-0.5">
-                  Growth feels better with a friend
+                  Tech. Marketing. Growth.
                 </span>
               </div>
             </motion.div>
@@ -208,7 +208,7 @@ export default function Navbar() {
             <div className="absolute top-5 left-6 flex items-center gap-3">
               <img src="/logo.png" alt="Market Mitra" className="h-10 w-10 object-contain" />
               <span className="font-heading font-bold text-base text-warm">
-                Market<span className="text-amber">मित्र</span>
+                Build<span style={{ color: "#5a5fcf" }}>Nest</span>
               </span>
             </div>
 
