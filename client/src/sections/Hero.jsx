@@ -143,7 +143,7 @@ export default function Hero() {
         className="relative mt-10 flex flex-col md:flex-row md:items-center gap-6 max-w-2xl"
       >
         <p className="text-warm/50 text-base md:text-lg leading-relaxed max-w-md">
-          Market Mitra combines cutting-edge tech with fearless marketing to help
+          Build Nest combines cutting-edge tech with fearless marketing to help
           startups and enterprises grow faster, smarter, and louder.
         </p>
         <div className="flex gap-3 shrink-0">
