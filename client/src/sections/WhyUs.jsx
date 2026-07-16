@@ -217,7 +217,7 @@ export default function WhyUs() {
               viewport={{ once: true }} transition={{ duration: 0.7, delay: 0.1 }}
               className="font-heading text-4xl md:text-5xl lg:text-6xl text-warm leading-tight"
             >
-              The Market Mitra<br />
+              The Build Nest<br />
               <span className="text-amber">Difference</span>
             </motion.h2>
           </div>
