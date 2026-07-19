@@ -3,53 +3,52 @@
 @import "tailwindcss";
 
 @theme {
-  --color-navy: #1a2e4a;
-  --color-navy-dark: #122038;
-  --color-navy-mid: #243d5e;
-  --color-navy-light: #2e5080;
-  --color-amber: #f5a623;
-  --color-amber-light: #f7b84b;
-  --color-amber-dark: #c4841c;
-  --color-teal: #1d9e75;
-  --color-teal-light: #25c490;
-  --color-teal-dark: #0f6b4e;
-  --color-warm: #f4f3ef;
-  --color-warm-dark: #e8e6e0;
-  --color-warm-darker: #d8d6cf;
+  /* ── BuildNest Purple scale ── */
+  --color-purple:        #6366f1;
+  --color-purple-light:  #a5b4fc;
+  --color-purple-dark:   #4338ca;
+  --color-purple-deeper: #1e1b4b;
 
-  --font-sans: "DM Sans", sans-serif;
+  /* ── Background scale ── */
+  --color-navy:          #0d0d14;
+  --color-navy-dark:     #080810;
+  --color-navy-mid:      #13102a;
+  --color-navy-light:    #1e1b4b;
+
+  /* ── Text / neutral ── */
+  --color-warm:          #e2e8f0;
+  --color-warm-dark:     #cbd5e1;
+  --color-warm-darker:   #94a3b8;
+
+  /* ── Map old amber → purple (all existing components auto-update) ── */
+  --color-amber:         #6366f1;
+  --color-amber-light:   #a5b4fc;
+  --color-amber-dark:    #4338ca;
+
+  /* ── Map old teal → purple-light (all existing components auto-update) ── */
+  --color-teal:          #a5b4fc;
+  --color-teal-light:    #c7d2fe;
+  --color-teal-dark:     #6366f1;
+
+  --font-sans:    "DM Sans", sans-serif;
   --font-heading: "Syne", sans-serif;
 
-  --animate-marquee: marquee 25s linear infinite;
+  --animate-marquee:  marquee 25s linear infinite;
   --animate-marquee2: marquee2 25s linear infinite;
-  --animate-fade-up: fadeUp 0.6s ease forwards;
+  --animate-fade-up:  fadeUp 0.6s ease forwards;
 }
 
 @keyframes marquee {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+  0%   { transform: translateX(0%); }
+  100% { transform: translateX(-100%); }
 }
 @keyframes marquee2 {
-  0% {
-    transform: translateX(100%);
-  }
-  100% {
-    transform: translateX(0%);
-  }
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(0%); }
 }
 @keyframes fadeUp {
-  0% {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  0%   { opacity: 0; transform: translateY(30px); }
+  100% { opacity: 1; transform: translateY(0); }
 }
 
 @layer base {
@@ -59,30 +58,25 @@
     box-sizing: border-box;
   }
 
-  /* NO scroll-behavior: smooth here — causes navigation latency */
   html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
 
   body {
-    background-color: var(--color-warm);
-    color: var(--color-navy);
+    background-color: var(--color-navy);
+    color: var(--color-warm);
     font-family: var(--font-sans);
   }
 
-  h1,
-  h2,
-  h3,
-  h4,
-  h5 {
+  h1, h2, h3, h4, h5 {
     font-family: var(--font-heading);
   }
 }
 
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(135deg, #f5a623, #1d9e75);
+    background: linear-gradient(135deg, #6366f1, #a5b4fc);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -93,18 +87,9 @@
   }
 
   @media (min-width: 768px) {
-    .section-padding {
-      padding: 5rem 4rem;
-    }
+    .section-padding { padding: 5rem 4rem; }
   }
   @media (min-width: 1024px) {
-    .section-padding {
-      padding: 5rem 6rem;
-    }
-  }
-
-  /* Smooth scroll only for anchor links within a page */
-  .smooth-scroll {
-    scroll-behavior: smooth;
+    .section-padding { padding: 5rem 6rem; }
   }
 }
