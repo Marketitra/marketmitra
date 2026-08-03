@@ -136,7 +136,7 @@ export default function ServiceGlobe() {
     const group = new THREE.Group()
     scene.add(group)
 
-    // No wireframe, no rings — just pure floating icons
+    // No wireframe, no ringsjust pure floating icons
     const R = 2.0
     const sprites = []
 

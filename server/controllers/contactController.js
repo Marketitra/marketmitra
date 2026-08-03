@@ -7,12 +7,10 @@ export const submitContact = async (req, res, next) => {
     const { name, email, phone, subject, message, service } = req.body;
 
     if (!name || !email || !subject || !message || !service)
-      return res
-        .status(400)
-        .json({
-          success: false,
-          message: "All required fields must be filled.",
-        });
+      return res.status(400).json({
+        success: false,
+        message: "All required fields must be filled.",
+      });
 
     if (!/^\S+@\S+\.\S+$/.test(email))
       return res
@@ -58,7 +56,7 @@ export const submitContact = async (req, res, next) => {
   }
 };
 
-// GET /api/contact — admin
+// GET /api/contactadmin
 export const getAllContacts = async (req, res, next) => {
   try {
     const { status, page = 1, limit = 20 } = req.query;
@@ -79,7 +77,7 @@ export const getAllContacts = async (req, res, next) => {
   }
 };
 
-// PATCH /api/contact/:id/status — admin
+// PATCH /api/contact/:id/statusadmin
 export const updateStatus = async (req, res, next) => {
   try {
     const contact = await Contact.findByIdAndUpdate(

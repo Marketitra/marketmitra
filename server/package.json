@@ -1,7 +1,7 @@
 {
   "name": "market-mitra-server",
   "version": "1.0.0",
-  "description": "Market Mitra Backend API",
+  "description": "Build Nest Backend API",
   "main": "server.js",
   "type": "module",
   "engines": {

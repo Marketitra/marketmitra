@@ -65,7 +65,7 @@ export default function About() {
 
       <div className="relative w-full grid grid-cols-1 lg:grid-cols-2 min-h-screen">
 
-        {/* LEFT — Globe */}
+        {/* LEFTGlobe */}
         <div
           className="relative flex flex-col items-center justify-center py-16"
           style={{ borderRight: "1px solid rgba(244,243,239,0.06)" }}
@@ -97,7 +97,7 @@ export default function About() {
           </div> */}
         </div>
 
-        {/* RIGHT — Content */}
+        {/* RIGHTContent */}
         <motion.div
           style={{ y: rightY }}
           className="relative flex flex-col justify-center py-24 px-10 md:px-16"
@@ -139,7 +139,7 @@ export default function About() {
           >
             We're a team of strategic thinkers, designers, and engineers working
             together to build brands that grow. We believe progress only happens
-            when you refuse to play it safe — combining creativity, technology,
+            when you refuse to play it safecombining creativity, technology,
             and data to produce experiences that customers love.
           </motion.p>
 

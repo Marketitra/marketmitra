@@ -11,7 +11,7 @@ const categories = [
       {
         num: "01", title: "Branding", slug: "branding",
         short: "Visual identities that stick.",
-        description: "From logo creation to full brand identity systems — we craft visual languages that resonate with your audience and make your brand impossible to ignore.",
+        description: "From logo creation to full brand identity systemswe craft visual languages that resonate with your audience and make your brand impossible to ignore.",
         tags: ["Logo Design", "Brand Identity", "Guidelines", "Figma"],
         icon: (
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -25,7 +25,7 @@ const categories = [
       {
         num: "02", title: "Digital Marketing", slug: "digital-marketing",
         short: "Full-funnel campaigns that convert.",
-        description: "We plan and execute full-funnel digital marketing strategies across every major channel — connecting your brand with the right audience at the right time.",
+        description: "We plan and execute full-funnel digital marketing strategies across every major channelconnecting your brand with the right audience at the right time.",
         tags: ["SEO", "Content", "Email", "Analytics"],
         icon: (
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -42,7 +42,7 @@ const categories = [
       {
         num: "03", title: "Performance Marketing", slug: "performance-marketing",
         short: "Every rupee working harder.",
-        description: "Laser-focused on measurable outcomes. We build, test, and optimise paid campaigns to maximise your ROI — leads, sales, or brand awareness at scale.",
+        description: "Laser-focused on measurable outcomes. We build, test, and optimise paid campaigns to maximise your ROIleads, sales, or brand awareness at scale.",
         tags: ["Google Ads", "PPC", "A/B Testing", "ROAS"],
         icon: (
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -75,7 +75,7 @@ const categories = [
       {
         num: "01", title: "Web Development", slug: "web-development",
         short: "MERN apps built for scale.",
-        description: "Fast, scalable, production-ready web applications using the MERN stack. From custom portals to full e-commerce platforms — every line built with performance at its core.",
+        description: "Fast, scalable, production-ready web applications using the MERN stack. From custom portals to full e-commerce platformsevery line built with performance at its core.",
         tags: ["React", "Node.js", "MongoDB", "REST APIs"],
         icon: (
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -105,7 +105,7 @@ const categories = [
       {
         num: "03", title: "Backend Maintenance", slug: "backend-maintenance",
         short: "Systems running at peak performance.",
-        description: "APIs, servers, and infrastructure staying healthy, secure, and performant. Monitoring, bug fixes, security patches, and performance tuning — zero downtime.",
+        description: "APIs, servers, and infrastructure staying healthy, secure, and performant. Monitoring, bug fixes, security patches, and performance tuningzero downtime.",
         tags: ["Node.js", "AWS", "CI/CD", "Docker"],
         icon: (
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -121,7 +121,7 @@ const categories = [
       {
         num: "04", title: "AI Integration", slug: "ai-integration",
         short: "Bring AI power to your product.",
-        description: "LLM-powered features, chatbots, recommendation engines, and automation pipelines — we integrate cutting-edge AI to build smarter, faster, more competitive products.",
+        description: "LLM-powered features, chatbots, recommendation engines, and automation pipelineswe integrate cutting-edge AI to build smarter, faster, more competitive products.",
         tags: ["OpenAI", "LangChain", "Chatbots", "Automation"],
         icon: (
           <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
@@ -213,7 +213,7 @@ function ServiceCard({ svc, colorKey, index }) {
     : "rgba(26,46,74,0.05)"
 }}
         >
-          {/* Cursor glow — uses React state so it actually re-renders */}
+          {/* Cursor glowuses React state so it actually re-renders */}
           {hovered && (
             <div
               className="absolute inset-0 pointer-events-none rounded-2xl transition-opacity duration-300"
@@ -223,7 +223,7 @@ function ServiceCard({ svc, colorKey, index }) {
             />
           )}
 
-          {/* Default card content — always visible when not hovered */}
+          {/* Default card contentalways visible when not hovered */}
           <div className="relative z-10 h-full p-6 flex flex-col">
             {/* Top row */}
             <div className="flex items-start justify-between mb-auto">
@@ -243,7 +243,7 @@ function ServiceCard({ svc, colorKey, index }) {
               </motion.div>
             </div>
 
-            {/* Title + short — always visible, fades out on hover */}
+            {/* Title + shortalways visible, fades out on hover */}
             <div className="mt-auto">
               <h4 className="font-heading text-xl font-semibold text-navy mb-2 leading-tight">
                 {svc.title}
@@ -258,7 +258,7 @@ function ServiceCard({ svc, colorKey, index }) {
             </div>
           </div>
 
-          {/* Hover overlay — slides up from bottom */}
+          {/* Hover overlayslides up from bottom */}
           <AnimatePresence>
             {hovered && (
               <motion.div

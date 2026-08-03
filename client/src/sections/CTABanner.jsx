@@ -62,7 +62,7 @@ export default function CTABanner() {
             viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
             className="text-warm/50 text-lg leading-relaxed mb-12 max-w-2xl mx-auto"
           >
-            Whether you need a new website, a full marketing strategy, or just want to explore what's possible — we're here to help. Book a free 30-minute call and let's talk.
+            Whether you need a new website, a full marketing strategy, or just want to explore what's possiblewe're here to help. Book a free 30-minute call and let's talk.
           </motion.p>
 
           {/* CTAs */}
@@ -71,7 +71,7 @@ export default function CTABanner() {
             viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row items-center justify-center gap-4"
           >
-            {/* Book a call — Cal.com */}
+            {/* Book a callCal.com */}
             <motion.a
               href="/book"
               target="_blank"

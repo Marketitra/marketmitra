@@ -10,7 +10,7 @@ const perks = [
       </svg>
     ),
     title: "30 Minutes",
-    desc:  "Quick and focused — no fluff, no wasted time.",
+    desc:  "Quick and focusedno fluff, no wasted time.",
   },
   {
     icon: (
@@ -105,13 +105,13 @@ export default function Book() {
             transition={{ duration: 0.6, delay: 0.5 }}
             className="text-warm/50 text-lg leading-relaxed"
           >
-            Pick a time that works for you. We'll talk about your goals, explore ideas, and figure out the best way we can help — completely free.
+            Pick a time that works for you. We'll talk about your goals, explore ideas, and figure out the best way we can helpcompletely free.
           </motion.p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-10 items-start">
 
-          {/* Left — perks */}
+          {/* Leftperks */}
           <motion.div style={{ y: leftY }} className="lg:col-span-2 flex flex-col gap-4">
             {perks.map((p, i) => (
               <motion.div key={i}
@@ -172,7 +172,7 @@ export default function Book() {
             </motion.div>
           </motion.div>
 
-          {/* Right — Cal.com embed */}
+          {/* RightCal.com embed */}
           <motion.div
             style={{ y: rightY }}
             className="lg:col-span-3"

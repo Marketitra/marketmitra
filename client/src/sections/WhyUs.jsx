@@ -22,7 +22,7 @@ const reasons = [
   {
     num: "02",
     title: "ROI-Focused Approach",
-    desc: "Every decision is tied to metrics that matter — leads, revenue, and retention. We don't celebrate activity; we celebrate outcomes.",
+    desc: "Every decision is tied to metrics that matterleads, revenue, and retention. We don't celebrate activity; we celebrate outcomes.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/>
@@ -42,7 +42,7 @@ const reasons = [
   {
     num: "04",
     title: "Startup to Enterprise",
-    desc: "Our solutions scale with you — whether you're a bootstrapped startup or expanding to new markets. We grow as you grow.",
+    desc: "Our solutions scale with youwhether you're a bootstrapped startup or expanding to new markets. We grow as you grow.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
@@ -52,7 +52,7 @@ const reasons = [
   {
     num: "05",
     title: "Creative + Technical",
-    desc: "We're rare — a firm that's equally strong in design, marketing, and engineering. No handoffs, no lost context, no compromise.",
+    desc: "We're rarea firm that's equally strong in design, marketing, and engineering. No handoffs, no lost context, no compromise.",
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/>
@@ -226,7 +226,7 @@ export default function WhyUs() {
             viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
             className="text-warm/40 text-sm leading-relaxed max-w-xs"
           >
-            We don't just deliver work — we deliver outcomes that move your business forward.
+            We don't just deliver workwe deliver outcomes that move your business forward.
           </motion.p>
         </div>
 
@@ -250,17 +250,17 @@ export default function WhyUs() {
           ))}
         </div>
 
-        {/* Two col — cards + skills */}
+        {/* Two colcards + skills */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
-          {/* Reasons grid — 2 cols spanning 2/3 */}
+          {/* Reasons grid2 cols spanning 2/3 */}
           <div className="lg:col-span-2 grid grid-cols-1 md:grid-cols-2 gap-4">
             {reasons.map((r, i) => (
               <WhyCard key={i} reason={r} i={i} />
             ))}
           </div>
 
-          {/* Skill bars — 1/3 */}
+          {/* Skill bars1/3 */}
           <div className="flex flex-col justify-center gap-6 bg-warm/5 border border-warm/10 rounded-2xl p-8">
             <motion.p
               initial={{ opacity: 0, y: 12 }} whileInView={{ opacity: 1, y: 0 }}

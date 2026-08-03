@@ -193,7 +193,7 @@ export default function Expertise() {
             viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
             className="text-warm/40 text-sm leading-relaxed max-w-xs"
           >
-            A rare blend of creative and technical mastery — built to deliver on every front.
+            A rare blend of creative and technical masterybuilt to deliver on every front.
           </motion.p>
         </div>
 

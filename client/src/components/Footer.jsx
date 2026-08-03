@@ -74,7 +74,7 @@ export default function Footer() {
           {/* Brand col */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-3 mb-5 group" data-cursor="hover">
-              <img src="/logo.png" alt="Market Mitra" className="h-10 w-10 object-contain" />
+              <img src="/logo.png" alt="Build Nest" className="h-10 w-10 object-contain" />
               <div>
                 <div className="font-heading font-bold text-lg text-warm leading-none">
                   Build<span style={{ color: "#5a5fcf" }}>Nest</span>
@@ -230,7 +230,7 @@ export default function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-warm/[0.07] pt-6 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-warm/25 text-xs">
-            © {new Date().getFullYear()} Market Mitra. All rights reserved.
+            © {new Date().getFullYear()} Build Nest. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="text-warm/25 text-xs hover:text-warm/50 transition-colors duration-200">Privacy Policy</Link>

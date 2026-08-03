@@ -72,7 +72,7 @@ export default function Cursor() {
       {/* Hide default cursor globally */}
       <style>{`* { cursor: none !important; }`}</style>
 
-      {/* Trail 2 — slowest, largest, most transparent */}
+      {/* Trail 2slowest, largest, most transparent */}
       <motion.div
         style={{
           x: t2x, y: t2y,
@@ -87,7 +87,7 @@ export default function Cursor() {
         {...{style: { x: t2x, y: t2y, translateX: "-50%", translateY: "-50%", borderColor: ringColor, opacity: visible ? 0.18 : 0 }}}
       />
 
-      {/* Trail 1 — medium speed ring */}
+      {/* Trail 1medium speed ring */}
       <motion.div
         style={{ x: tx, y: ty, translateX: "-50%", translateY: "-50%", borderColor: ringColor, opacity: visible ? 0.55 : 0 }}
         animate={{ width: ringSize, height: ringSize }}
@@ -95,7 +95,7 @@ export default function Cursor() {
         className="fixed top-0 left-0 rounded-full border pointer-events-none z-[9997]"
       />
 
-      {/* Dot — snappy, follows cursor closely */}
+      {/* Dotsnappy, follows cursor closely */}
       <motion.div
         style={{ x: dotX, y: dotY, translateX: "-50%", translateY: "-50%", backgroundColor: dotColor, opacity: visible ? 1 : 0 }}
         animate={{ width: dotSize, height: dotSize }}

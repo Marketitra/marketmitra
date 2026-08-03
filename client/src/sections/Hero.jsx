@@ -22,7 +22,7 @@ export default function Hero() {
         style={{ background: "linear-gradient(160deg, #1A2E4A 0%, #0f1f35 55%, #080f1e 100%)" }}
       />
 
-      {/* Animated glow wave — upper left to lower right */}
+      {/* Animated glow waveupper left to lower right */}
       <motion.div
         className="absolute pointer-events-none"
         style={{
@@ -73,7 +73,7 @@ export default function Hero() {
         }}
       />
 
-      {/* Subtle navy-blue mid glow — stays near center */}
+      {/* Subtle navy-blue mid glowstays near center */}
       <motion.div
         className="absolute pointer-events-none"
         style={{

@@ -158,7 +158,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-12">
 
-          {/* Left — info + cal.com */}
+          {/* Leftinfo + cal.com */}
           <motion.div style={{ y: leftY }} className="lg:col-span-2 flex flex-col gap-8">
 
             {/* Contact info */}
@@ -242,7 +242,7 @@ export default function Contact() {
             </motion.div>
           </motion.div>
 
-          {/* Right — Contact form */}
+          {/* RightContact form */}
           <motion.div style={{ y: rightY }} ref={formRef} className="lg:col-span-3">
             <motion.div
               initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }}

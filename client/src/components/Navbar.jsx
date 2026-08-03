@@ -75,7 +75,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link to="/" data-cursor="hover">
             <motion.div whileHover={{ scale: 1.03 }} className="flex items-center gap-3">
-              <img src="/logo.png" alt="Market Mitra" className={`object-contain transition-all duration-500 ${scrolled ? "h-10 w-10" : "h-12 w-12"}`} />
+              <img src="/logo.png" alt="Build Nest" className={`object-contain transition-all duration-500 ${scrolled ? "h-10 w-10" : "h-12 w-12"}`} />
               <div className="flex flex-col leading-none">
                 <span className="font-heading font-bold text-base text-warm leading-none">
                   Build<span style={{ color: "#5a5fcf" }}>Nest</span>
@@ -206,7 +206,7 @@ export default function Navbar() {
           >
             {/* Mobile logo */}
             <div className="absolute top-5 left-6 flex items-center gap-3">
-              <img src="/logo.png" alt="Market Mitra" className="h-10 w-10 object-contain" />
+              <img src="/logo.png" alt="Build Nest" className="h-10 w-10 object-contain" />
               <span className="font-heading font-bold text-base text-warm">
                 Build<span style={{ color: "#5a5fcf" }}>Nest</span>
               </span>

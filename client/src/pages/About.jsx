@@ -14,8 +14,8 @@ const milestones = [
   {
     year: "2024",
     month: "Q3",
-    title: "Market Mitra Founded",
-    desc: "Born in Nagpur, Maharashtra with a mission — make world-class tech and marketing accessible to every ambitious brand in India.",
+    title: "Build Nest Founded",
+    desc: "Born in Nagpur, Maharashtra with a missionmake world-class tech and marketing accessible to every ambitious brand in India.",
     color: "amber",
   },
   {
@@ -103,7 +103,7 @@ export default function About() {
             transition={{ duration: 0.7, delay: 0.5 }}
             className="text-warm/50 text-lg md:text-xl leading-relaxed max-w-2xl"
           >
-            A freshly launched, full-service tech and marketing firm from Nagpur, Maharashtra. Built for ambitious brands that want real growth — not just activity.
+            A freshly launched, full-service tech and marketing firm from Nagpur, Maharashtra. Built for ambitious brands that want real growthnot just activity.
           </motion.p>
 
           {/* Location badge */}
@@ -133,7 +133,7 @@ export default function About() {
               Growth Feels Better<br /><span className="text-amber">With a Friend</span>
             </h2>
             <p className="text-navy/55 text-lg leading-relaxed mb-6">
-              Market Mitra was founded on a simple belief — that great businesses deserve great partners. Not just vendors who deliver work, but real collaborators who care about your outcomes as much as you do.
+              Build Nest was founded on a simple beliefthat great businesses deserve great partners. Not just vendors who deliver work, but real collaborators who care about your outcomes as much as you do.
             </p>
             <p className="text-navy/55 text-base leading-relaxed">
               We're a young, hungry team from Nagpur combining cutting-edge technology with bold marketing thinking. We launched because we saw too many businesses being underserved by agencies that overpromise and underdeliver. We're here to change that.
@@ -211,7 +211,7 @@ export default function About() {
         <motion.p initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} transition={{ duration: 0.6, delay: 0.2 }}
           className="text-navy/45 text-base mb-16 max-w-xl"
         >
-          We're a newly launched firm and proud of it. Every great agency started somewhere — this is ours.
+          We're a newly launched firm and proud of it. Every great agency started somewherethis is ours.
         </motion.p>
 
         <div className="relative">

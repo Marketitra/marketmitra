@@ -6,7 +6,7 @@ const servicesData = {
     category: "technical",
     title: "Web Development",
     tagline: "Full-stack MERN applications built for scale.",
-    description: `We build fast, scalable, and production-ready web applications using the MERN stack (MongoDB, Express, React, Node.js). From custom portals and dashboards to full e-commerce platforms — every line of code is written with performance, maintainability, and user experience at the core.\n\nWe don't just build websites. We build digital products that drive business outcomes — fast loading, mobile-first, SEO-optimised, and built to scale as your business grows.`,
+    description: `We build fast, scalable, and production-ready web applications using the MERN stack (MongoDB, Express, React, Node.js). From custom portals and dashboards to full e-commerce platformsevery line of code is written with performance, maintainability, and user experience at the core.\n\nWe don't just build websites. We build digital products that drive business outcomesfast loading, mobile-first, SEO-optimised, and built to scale as your business grows.`,
     techStack: [
       { name: "React",      desc: "Frontend UI library",             color: "#61DAFB" },
       { name: "Node.js",    desc: "Server-side runtime",             color: "#339933" },
@@ -22,7 +22,7 @@ const servicesData = {
       "Target audience and purpose of the website/app",
       "Reference websites you like (design inspiration)",
       "List of features and pages needed",
-      "Brand assets — logo, colors, fonts (if available)",
+      "Brand assetslogo, colors, fonts (if available)",
       "Hosting preference or we can recommend",
       "Expected timeline and budget range",
     ],
@@ -34,7 +34,7 @@ const servicesData = {
     category: "technical",
     title: "Database Handling",
     tagline: "Reliable, optimised, and secure data infrastructure.",
-    description: `We design, build, and maintain database systems that power your applications. From schema design and query optimisation to backups, migrations, and scaling strategies — we make sure your data is safe, fast, and always available.\n\nWhether you're starting fresh or need to optimise an existing database that's become a bottleneck, we bring the expertise to handle it right.`,
+    description: `We design, build, and maintain database systems that power your applications. From schema design and query optimisation to backups, migrations, and scaling strategieswe make sure your data is safe, fast, and always available.\n\nWhether you're starting fresh or need to optimise an existing database that's become a bottleneck, we bring the expertise to handle it right.`,
     techStack: [
       { name: "MongoDB",    desc: "Document database",    color: "#47A248" },
       { name: "PostgreSQL", desc: "Relational database",  color: "#336791" },
@@ -59,7 +59,7 @@ const servicesData = {
     category: "technical",
     title: "Backend Maintenance",
     tagline: "Keep your systems running at peak performance.",
-    description: `Our backend maintenance service ensures your APIs, servers, and infrastructure stay healthy, secure, and performant. We handle monitoring, bug fixes, dependency updates, security patches, and performance tuning so you never have to worry about downtime.\n\nWe offer monthly retainer packages that cover everything from routine maintenance to emergency response — so your team can focus on building, not firefighting.`,
+    description: `Our backend maintenance service ensures your APIs, servers, and infrastructure stay healthy, secure, and performant. We handle monitoring, bug fixes, dependency updates, security patches, and performance tuning so you never have to worry about downtime.\n\nWe offer monthly retainer packages that cover everything from routine maintenance to emergency responseso your team can focus on building, not firefighting.`,
     techStack: [
       { name: "Node.js",  desc: "Runtime environment",    color: "#339933" },
       { name: "Express",  desc: "API framework",          color: "#ffffff" },
@@ -84,7 +84,7 @@ const servicesData = {
     category: "technical",
     title: "AI Integration",
     tagline: "Bring the power of AI into your product.",
-    description: `We integrate cutting-edge AI capabilities into your existing products and workflows. From LLM-powered features and chatbots to recommendation engines and automation pipelines — we help you harness AI to build smarter, faster, and more competitive products.\n\nWe work with OpenAI, Anthropic, and open-source models to find the best fit for your use case, budget, and performance requirements.`,
+    description: `We integrate cutting-edge AI capabilities into your existing products and workflows. From LLM-powered features and chatbots to recommendation engines and automation pipelineswe help you harness AI to build smarter, faster, and more competitive products.\n\nWe work with OpenAI, Anthropic, and open-source models to find the best fit for your use case, budget, and performance requirements.`,
     techStack: [
       { name: "OpenAI",     desc: "GPT models & APIs",     color: "#ffffff" },
       { name: "Anthropic",   desc: "Claude models & APIs", color: "#FF6600" },
@@ -111,7 +111,7 @@ const servicesData = {
     category: "marketing",
     title: "Branding & Identity",
     tagline: "Visual identities that make your brand impossible to ignore.",
-    description: `From logo creation to full brand identity systems, we craft visual languages that deeply resonate with your audience. We design UI systems, brand guidelines, marketing collateral, and everything your brand needs to stand out in a crowded market.\n\nA strong brand is more than a logo — it's how your business feels, sounds, and looks across every touchpoint. We make sure yours is consistent, memorable, and built for scale.`,
+    description: `From logo creation to full brand identity systems, we craft visual languages that deeply resonate with your audience. We design UI systems, brand guidelines, marketing collateral, and everything your brand needs to stand out in a crowded market.\n\nA strong brand is more than a logoit's how your business feels, sounds, and looks across every touchpoint. We make sure yours is consistent, memorable, and built for scale.`,
     techStack: [
       { name: "Figma",       desc: "Design & prototyping",  color: "#F24E1E" },
       { name: "Illustrator", desc: "Vector graphics",       color: "#FF9A00" },
@@ -134,7 +134,7 @@ const servicesData = {
     category: "marketing",
     title: "Digital Marketing",
     tagline: "Full-funnel campaigns that turn attention into revenue.",
-    description: `We plan and execute full-funnel digital marketing strategies across every major channel. From SEO-driven content to email automation and influencer partnerships — we connect your brand with the right audience at the right time.\n\nOur approach is channel-agnostic. We start with your goals and work backwards to find the highest-leverage activities, then execute with precision and measure everything.`,
+    description: `We plan and execute full-funnel digital marketing strategies across every major channel. From SEO-driven content to email automation and influencer partnershipswe connect your brand with the right audience at the right time.\n\nOur approach is channel-agnostic. We start with your goals and work backwards to find the highest-leverage activities, then execute with precision and measure everything.`,
     techStack: [
       { name: "Google Analytics", desc: "Web analytics",         color: "#F9AB00" },
       { name: "Semrush",          desc: "SEO & content",         color: "#FF642D" },
@@ -158,7 +158,7 @@ const servicesData = {
     category: "marketing",
     title: "Performance Marketing",
     tagline: "Every rupee of ad spend working harder for you.",
-    description: `Our performance marketing practice is laser-focused on measurable outcomes. We build, test, and optimise paid campaigns to maximise your ROI — whether that's leads, sales, app installs, or brand awareness at scale.\n\nWe use a data-first approach: every creative, audience, and bid strategy is tested rigorously, and we scale only what works.`,
+    description: `Our performance marketing practice is laser-focused on measurable outcomes. We build, test, and optimise paid campaigns to maximise your ROIwhether that's leads, sales, app installs, or brand awareness at scale.\n\nWe use a data-first approach: every creative, audience, and bid strategy is tested rigorously, and we scale only what works.`,
     techStack: [
       { name: "Google Ads",   desc: "Search & display ads",  color: "#4285F4" },
       { name: "Meta Ads",     desc: "FB & Instagram ads",    color: "#0082FB" },
@@ -182,7 +182,7 @@ const servicesData = {
     category: "marketing",
     title: "Meta Ads",
     tagline: "Facebook & Instagram ads that actually convert.",
-    description: `We run high-performing Meta ad campaigns across Facebook and Instagram — from creative strategy and audience building to pixel setup, funnel optimisation, and scaling. We help you reach the right people and turn them into paying customers.\n\nOur Meta Ads service covers the full funnel: awareness campaigns to cold audiences, retargeting warm traffic, and retention campaigns for existing customers.`,
+    description: `We run high-performing Meta ad campaigns across Facebook and Instagramfrom creative strategy and audience building to pixel setup, funnel optimisation, and scaling. We help you reach the right people and turn them into paying customers.\n\nOur Meta Ads service covers the full funnel: awareness campaigns to cold audiences, retargeting warm traffic, and retention campaigns for existing customers.`,
     techStack: [
       { name: "Meta Ads Manager", desc: "Campaign management",  color: "#0082FB" },
       { name: "Meta Pixel",       desc: "Conversion tracking",  color: "#0082FB" },
@@ -297,7 +297,7 @@ export default function ServiceDetail() {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
 
-          {/* Left — Tech Stack + Requirements */}
+          {/* LeftTech Stack + Requirements */}
           <div className="lg:col-span-2 flex flex-col gap-8">
 
             {/* Tech Stack */}
@@ -345,7 +345,7 @@ export default function ServiceDetail() {
             </motion.div>
           </div>
 
-          {/* Right — Summary card + CTA */}
+          {/* RightSummary card + CTA */}
           <div className="flex flex-col gap-6">
 
             {/* Summary */}

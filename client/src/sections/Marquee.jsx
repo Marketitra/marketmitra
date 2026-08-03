@@ -36,11 +36,11 @@ const MarqueeRow = ({ items, direction = 1, speed = 30 }) => {
 export default function Marquee() {
   return (
     <div className="bg-navy-dark border-y border-warm/10 overflow-hidden py-1">
-      {/* Row 1 — left to right */}
+      {/* Row 1left to right */}
       <div className="border-b border-warm/5">
         <MarqueeRow items={services} direction={1} speed={25} />
       </div>
-      {/* Row 2 — right to left */}
+      {/* Row 2right to left */}
       <MarqueeRow items={services} direction={-1} speed={20} />
     </div>
   )

@@ -107,9 +107,9 @@ const sendContactNotification = async ({
 }) => {
   const resend = getResend();
   await resend.emails.send({
-    from: "Market Mitra <onboarding@resend.dev>",
+    from: "Build Nest <onboarding@resend.dev>",
     to: "contactmarketmitra@gmail.com",
-    subject: `📬 New Enquiry [${service}] — ${name}`,
+    subject: `📬 New Enquiry [${service}]${name}`,
     html: `
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background:#0d1b2e;border-radius:12px;overflow:hidden;color:#F4F3EF;">
       <div style="background:linear-gradient(135deg,#1A2E4A,#0f1f35);padding:28px 32px;border-bottom:1px solid rgba(255,255,255,0.07);">
@@ -152,9 +152,9 @@ const sendContactNotification = async ({
 const sendAutoReply = async ({ name, email, message, service }) => {
   const resend = getResend();
   await resend.emails.send({
-    from: "Market Mitra <onboarding@resend.dev>",
+    from: "Build Nest <onboarding@resend.dev>",
     to: email,
-    subject: `We got your message, ${name.split(" ")[0]}! 🙌 — Market Mitra`,
+    subject: `We got your message, ${name.split(" ")[0]}! 🙌Build Nest`,
     html: `
     <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background:#0d1b2e;border-radius:12px;overflow:hidden;color:#F4F3EF;">
       <div style="background:linear-gradient(135deg,#1A2E4A,#0f1f35);padding:28px 32px;text-align:center;border-bottom:1px solid rgba(255,255,255,0.07);">
@@ -182,7 +182,7 @@ const sendAutoReply = async ({ name, email, message, service }) => {
 
 // ── Health ────────────────────────────────────────────────
 app.get("/", (_, res) =>
-  res.json({ success: true, message: "Market Mitra API 🚀" }),
+  res.json({ success: true, message: "Build Nest API 🚀" }),
 );
 app.get("/api/health", (_, res) =>
   res.json({ success: true, uptime: process.uptime() }),
