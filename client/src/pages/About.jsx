@@ -86,7 +86,7 @@ export default function About() {
 
           <div ref={heroRef} className="overflow-hidden">
             <h1 className="font-heading text-5xl md:text-7xl lg:text-8xl text-warm font-bold leading-none mb-6">
-              {["We Are", "Market", "Mitra."].map((word, i) => (
+              {["We Are", "Build", "Nest."].map((word, i) => (
                 <motion.span key={i} className="block"
                   initial={{ y: 100, opacity: 0 }}
                   animate={inView ? { y: 0, opacity: 1 } : {}}
